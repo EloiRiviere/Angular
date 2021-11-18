@@ -1,0 +1,30 @@
+$nav-width: 19rem;
+
+#navbar-solution {
+    display: -webkit-inline-box;
+    position: fixed;
+}
+
+.vertical-nav {
+    max-width: $nav-width;
+    width: 300px;
+}
+
+#profile_description {
+    margin-left: 10px;
+}
+
+#profile>img {
+    padding: 0.2rem;
+}
+
+#page {
+    width: calc(100% - $nav-width);
+    height: 500px;
+    background-color: blue;
+    float: right;
+}
+
+// #toggler:checked ~ #page {
+// 	background-color: red;
+// }
